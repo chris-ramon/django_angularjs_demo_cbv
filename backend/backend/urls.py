@@ -7,7 +7,7 @@ from demo_app.views import PostList, PostDetail
 urlpatterns = patterns('',
     # Examples:
     url(r'^posts$', PostList.as_view(), name='post_list'),
-    url(r'^posts/(?P<pk>[^/]+)/$', PostDetail.as_view(), name='post_detail'),
+    url(r'^posts/(?P<pk>[^/]+)$', PostDetail.as_view(), name='post_detail'),
     # url(r'^blog/', include('blog.urls')),
 
     # url(r'^admin/', include(admin.site.urls)),
