@@ -2,3 +2,4 @@
 .idea/
 django_angularjs_demo_cbv.iml
 *.pyc
+backend/demo_app_venv/
