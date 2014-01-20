@@ -1,0 +1,4 @@
+.DS_Store
+.idea/
+django_angularjs_demo_cbv.iml
+*.pyc
